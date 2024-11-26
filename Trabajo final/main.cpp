@@ -35,7 +35,7 @@ public:
 
     GameStartScreen() : window(sf::VideoMode(1150, 1200), "Pantalla de Inicio") {
         // Cargar fuentes
-        if (!font.loadFromFile("C:\\Users\\Equipo\\Desktop\\Tipografia\\Manrope-VariableFont_wght.ttf")) {
+        if (!font.loadFromFile("C:\\Users\\Equipo\\Documents\\Trabajo final\\Imagenes\\Manrope-VariableFont_wght.ttf")) {
             std::cerr << "Error al cargar la fuente." << std::endl;
             window.close();
         }
