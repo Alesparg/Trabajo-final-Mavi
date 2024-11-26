@@ -70,7 +70,7 @@ public:
         exitText.setPosition(250, 900);
 
         // Cargar texturas
-        if (!salonTexture.loadFromFile("C:\\Users\\Equipo\\Desktop\\imagen trabajo\\salon.png")) {
+        if (!salonTexture.loadFromFile("C:\\Users\\Equipo\\Documents\\Trabajo final\\Imagenes\\salon.png")) {
             std::cerr << "Error al cargar la imagen del salon." << std::endl;
             window.close();
         }
@@ -81,7 +81,7 @@ public:
             static_cast<float>(window.getSize().y) / salonTexture.getSize().y
         );
 
-        if (!miraTexture.loadFromFile("C:\\Users\\Equipo\\Desktop\\imagen trabajo\\crosshair.png")) {
+        if (!miraTexture.loadFromFile("C:\\Users\\Equipo\\Documents\\Trabajo final\\Imagenes\\crosshair.png")) {
             std::cerr << "Error al cargar la imagen de la mira." << std::endl;
             window.close();
         }
@@ -89,12 +89,12 @@ public:
         miraSprite.setOrigin(miraTexture.getSize().x / 2, miraTexture.getSize().y / 2);
         window.setMouseCursorVisible(false);
 
-        if (!civilTexture.loadFromFile("C:\\Users\\Equipo\\Desktop\\imagen trabajo\\civil.jpg")) {
+        if (!civilTexture.loadFromFile("C:\\Users\\Equipo\\Documents\\Trabajo final\\Imagenes\\civil.jpg")) {
             std::cerr << "Error al cargar la imagen del civil." << std::endl;
             window.close();
         }
 
-        if (!enemyTexture.loadFromFile("C:\\Users\\Equipo\\Desktop\\imagen trabajo\\malo.png")) {
+        if (!enemyTexture.loadFromFile("C:\\Users\\Equipo\\Documents\\Trabajo final\\Imagenes\\malo.png")) {
             std::cerr << "Error al cargar la imagen del enemigo." << std::endl;
             window.close();
         }

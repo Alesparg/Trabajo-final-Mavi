@@ -135,6 +135,9 @@
   <ItemGroup>
     <Font Include="..\..\..\Desktop\Manrope-VariableFont_wght.ttf" />
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\Desktop\imagen trabajo\malo.png" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
